@@ -70,7 +70,43 @@ print("hi" * 42)
 
 #06
 
+Input
 
+
+Somebody wrote code to take a string input and output it, repeated 10 times.
+However, the code results in an error.
+Fix the code to output the desired output.
+
+x = input()
+
+print(x+10)
+
+"""Solution"""
+
+#07
+
+Problem
+Working with Input
+
+
+Write a program to take x and y as input and output the string x, repeated y times.
+
+Sample Input
+hi
+3
+
+Sample Output
+hihihi
+Remember to convert the input to the required data type.
+
+"""Solution"""
+
+x = input()
+y = input()
+
+print(str(x) * int(y))
+
+#08
 
 
 

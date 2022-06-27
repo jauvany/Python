@@ -107,6 +107,18 @@ y = input()
 print(str(x) * int(y))
 
 #08
+spam = "7"
+spam = spam + "0"
+eggs = int(spam) + 3
+print(float(eggs))
+
+Answer = 73.0
+
+#09
+
+
+
+
 
 
 

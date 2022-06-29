@@ -88,6 +88,31 @@ print(x+10)
 Problem
 Working with Input
 
+#08
+Problem
+else Statement
+
+
+Write a program to control entrance to a club.
+Only people who are 18 or older are allowed to enter the club.
+Your program takes the age of the person who tries to enter, and outputs "Allowed" if they are allowed to enter the club, and "Sorry" if they are younger than the allowed age.
+
+Sample Input
+24
+
+Sample Output
+Allowed
+
+""" Solution """
+
+age = int(input())
+if age >= 18:
+    print("Allowed")
+else:
+    print("Sorry")
+
+    
+
 
 Write a program to take x and y as input and output the string x, repeated y times.
 
@@ -163,6 +188,33 @@ if temp >= 100:
     print("Boiling")
     
 #11 
+
+Problem
+else Statement
+
+
+Write a program to control entrance to a club.
+Only people who are 18 or older are allowed to enter the club.
+Your program takes the age of the person who tries to enter, and outputs "Allowed" if they are allowed to enter the club, and "Sorry" if they are younger than the allowed age.
+
+Sample Input
+24
+
+Sample Output
+Allowed
+
+""" Solution """
+
+age = int(input())
+if age >= 18:
+    print("Allowed")
+else:
+    print("Sorry")
+
+    
+#12
+
+
     
 
 

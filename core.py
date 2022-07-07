@@ -23,3 +23,24 @@ print(0.01*(2**30))
 
 #02
 
+ProblemResults
+Simple Calculator
+
+Write a program to take two integers as input and output their sum.
+
+Sample Input:
+2
+8
+
+Sample Output:
+10
+Remember, input() results in a string.
+
+""" SOLUTION """
+# your code goes here
+x = int(input())
+y = int(input())
+print(x + y)
+
+#03
+

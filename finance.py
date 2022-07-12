@@ -31,10 +31,4 @@ print(present_value * (annual_inflation) ** 10)
 
 #08
 
-#09
 
-#10
-
-#11
-
-#12

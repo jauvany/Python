@@ -93,4 +93,26 @@ x = x.(kind="bar")
 
 #15
 
+""" 13 Jully 2022 """
+            
+#01
+import yfinance as yf
 
+data = yf.Ticker("BTC-USD")
+
+print(data.info['description'])
+
+#02
+import yfinance as yf
+data = yf.Ticker("TSLA")
+print(data.major_holders)
+
+#03
+import yfinance as yf
+
+data = yf.Ticker("TSLA")
+
+x = data.institutional_holders
+
+print(x[x['shares'] > 10000000])
+            

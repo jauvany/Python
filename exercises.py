@@ -285,6 +285,35 @@ There is one child under 3 among the passengers, so the total price of 5 tickets
 """ SOLUTION """
 
 
+#15
+
+
+#16
+
+#17
+
+#18
+
+#19
+
+#20
+Problem
+
+for Loops
+
+
+for loops allow you to easily iterate through lists.
+
+Given a list of numbers, calculate their sum using a for loop.
+Output the sum after the loop
+
+x = [42, 8, 7, 1, 0, 124, 8897, 555, 3, 67, 99]
+
+print(sum(x)) 
+
+OR
+
+
 
 
 

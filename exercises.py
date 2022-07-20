@@ -339,7 +339,23 @@ b = int(input())
 list = list(range(a,b))
 print(list)
 
+#22
+Problem
+List Slices
 
+
+Write a program that takes a string as input and outputs the last character of that string.
+Remember, you can use negative indices to index lists.
+
+""" Solution """
+
+j = str(input())
+jj = (j[::-1]); print(jj[0])
+
+OR
+
+str = input()
+print(str[-1])
 
 
 

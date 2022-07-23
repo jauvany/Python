@@ -312,8 +312,47 @@ Remember, range(a, b) does not include b, thus you need to use b+1 to include b 
 
 
 #16
+List Functions
+
+
+You are working on a queue management program.
+The queue is represented by a list.
+Write a program to take an input, add it to the end of the queue, and output the resulting list.
+The append() method can be used to add new items to the list.
+
+""" SOLUTION """
+
+queue = ['John', 'Amy', 'Bob', 'Adam']
+
+j = queue.append(input())
+
+print(queue)
+
+OR 
+
+queue = ["John’, "Amy", ‘Bob’, "Adam" ]
+
+item = input()
+queue. append( item)
+print (queue)
 
 #17
+String Functions
+
+
+Your friend sent you a message, however his keyboard is broken and types a # instead of a space.
+
+Replace all of the # characters in the given input with spaces and output the result.
+You can use the replace() function of a string to replace one substring with another.
+
+""" SOLUTION """
+
+msg = input()
+
+msg = msg.replace('#',' ')
+
+print(msg)
+
 
 #18
 

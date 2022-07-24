@@ -391,9 +391,22 @@ You need to take the user input and call the function by passing the input as it
 You need to only call the function, as it will take care of the output.
          
 """SOLUTION """
-         
-         
 
+def printBill(text):
+  print("======")
+  print(input())
+  print("======")
+printBill(input)         
+         
+OR 
+
+def printBill(text):
+  print("======")
+  print(text)
+  print("======")
+text = input()         
+printBill(text)
+         
 #20
 Problem
 
